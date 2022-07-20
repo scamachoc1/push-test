@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" type="text/css" href="./slick-1.8.1/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="./slick-1.8.1/slick/slick-theme.css"/>
+</head>
+<body>
+    <div id="slider">
+        <div class="slick">
+            <div class="1">1</div>
+            <div class="2">2</div>
+            <div class="3">3</div>
+            <div class="4">4</div>
+            <div class="5">5</div>
+            <div class="6">6</div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    
+    <script>
+        $(document).ready(() => {
+            $('.slick').slick({
+                dots:true,
+                autoplay:true,
+                autoplaySpeed: 500,
+            });
+        })
+    </script>
+</body>
+</html>
